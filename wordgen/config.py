@@ -24,7 +24,7 @@ CONS_4 = 'cjqwx'
 #The thresholds are set as follows:
 #
 #    CONS_1: over threshold of over threshold
-#    CONS_2: under threshold of under threshold
+#    CONS_2: under threshold of over threshold
 #    CONS_3: over threshold of under threshold
 #    CONS_4: under threshold of under threshold
 #

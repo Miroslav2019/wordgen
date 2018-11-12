@@ -15,10 +15,15 @@ def main():
     while True:
         word = fun.build_word()
         if word:
-            save_word()
+            fun.save_word(word)
         while True:
             flag = input("{} {}".format(QUIT, YESNO))
             if flag == 'y':
                 sys.exit(0)
             elif flag != 'n':
                 print(OOPS)
+            else:
+                break
+
+if __name__=='__main__':
+    main()
